@@ -36,6 +36,7 @@ header
 	top: 0;
 	width: 100%;
 }
+
 header ul
 {
 	display: flex;
@@ -54,6 +55,38 @@ header ul
     font-family : "KhandBold", Arial, sans-serif;
     font-size: 1.5em;
 }
+
+nav img
+{
+	height: 10em;
+}
+
+nav
+{
+	background-color: #161616;
+	background-image: url(../images/logo.png);
+	background-size: 16em;
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-attachment: fixed;
+	display: flex;
+	border-bottom: 4px solid #6D0F0F;
+}
+
+body
+{
+	background-color: #2B2A2A;
+	margin: 0;
+}
+
+footer
+{
+	display: flex;
+	border-top: 4px solid #6D0F0F;
+	background-color: #161616;
+	align-self: flex-end;
+}
+
 
 footer ul
 {
@@ -74,37 +107,10 @@ footer ul
     font-size: 1.3em;
 }
 
-nav img
+li a:hover
 {
-	height: 10em;
+	color: #A52222;
 }
-
-nav
-{
-	background-color: #161616;
-	background-image: url(logo.png);
-	background-size: 16em;
-	background-repeat: no-repeat;
-	background-position: top left;
-	background-attachment: fixed;
-	display: flex;
-	border-bottom: 4px solid #6D0F0F;
-
-}
-
-body
-{
-	background-color: #2B2A2A;
-	margin: 0;
-}
-
-footer
-{
-	display: flex;
-	border-top: 4px solid #6D0F0F;
-	background-color: #161616;
-}
-
 footer li 
 {
 	border: 1px solid white;
@@ -126,11 +132,17 @@ header li:hover
 {
 	display: flex;
 	flex-direction: row;
-
 }
+
 #icones a i:hover
 {
 color: #A52222;
+}
+
+#live i 
+{
+color: #A52222;
+font-size: 1em;
 }
 
 i
@@ -145,15 +157,18 @@ i
 
 #content
 {
-	width: 900px;
+	width: 1200px;
 	display: flex;
 	margin: auto;
+	flex-direction: column;
+	background-color: #1C1C1C;
+	border: 2px solid #161616;
+	margin-bottom: 20px;
 }
-
 
 #carré
 {
-	background-image: url(nathria.jpg);
+	background-image: url(../images/nathria.jpg);
 	background-size: 900px;
 	background-repeat: no-repeat;
 	margin-top: 200px;
@@ -165,13 +180,6 @@ i
 	width: 100%;
 }
 
-#content img
-{
-	width: 900px;
-	height: 500px;
-	margin: auto;
-}
-
 #carré p
 {
 	color: #F8F8F8;
@@ -180,9 +188,54 @@ i
 	font-size: 1.7em;
 }
 
+#entête
+{
+	display: flex;
+	justify-content: space-between;
+	margin: 30px;
+	margin-top: 200px;
+	width: 1100px;
+  
+}
+
+#entêtetexte
+{
+	flex-wrap: wrap;
+	padding-right: 100px;
+	font-family : "Khand", Arial, sans-serif;
+    color: white;
+    font-size: 1.1em;
+
+}
+
+#live, #offline
+{
+	margin: 30px;
+	padding: 10px;
+	border: 2px groove #161616;
+	background-color: #161616;
+}
+
+#content h1
+{
+	font-family : "KhandBold", Arial, sans-serif;
+    font-size: 2em;
+    color: white;
+}
+
+.imgstream
+{
+	display: flex;
+	justify-content: space-between;
+	direction: row;
+	margin: auto;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+
 #logo
 {
-	background-image: url(logo.png);
+	background-image: url(../images/logo.png);
 	background-size: 900px;
 	background-repeat: no-repeat;
 	background-position: -30px 0px;
@@ -195,4 +248,14 @@ i
 #logo p{
 	
 	bottom: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a: visited{
+	text-decoration: none;
+	color: white;
 }

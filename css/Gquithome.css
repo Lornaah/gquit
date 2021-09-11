@@ -1,0 +1,211 @@
+
+@font-face
+{
+font-family: "KhandBold";
+src: url("polices/Khand-Bold.ttf");
+}
+
+@font-face
+{
+	font-family: "KhandLight";
+	src: url("polices/Khand-Light.ttf");
+	
+}
+
+@font-face
+{
+	font-family: "KhandMedium";
+	src: url("polices/Khand-Medium.ttf");
+	 
+}
+
+@font-face
+{
+	font-family: "Khand";
+	src: url("polices/Khand-Regular.ttf");
+}
+
+#content
+{
+	margin: 142px;
+}
+
+header
+{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+header ul
+{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    color: white;
+    flex : 2;
+    block-size: fit-content;
+    max-width:50%;
+    height: 128px;
+    margin : auto;
+    font-family : "KhandBold", Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+nav img
+{
+	height: 10em;
+}
+
+nav
+{
+	background-color: #161616;
+	background-image: url(images/logo.png);
+	background-size: 16em;
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-attachment: fixed;
+	display: flex;
+	border-bottom: 4px solid #6D0F0F;
+
+}
+
+body
+{
+	background-color: #2B2A2A;
+	margin: 0;
+
+}
+
+footer
+{
+	display: flex;
+	border-top: 4px solid #6D0F0F;
+	background-color: #161616;
+	align-self: flex-end;
+}
+
+
+footer ul
+{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    color: white;
+    flex : 2;
+    block-size: fit-content;
+    max-width:50%;
+    height: 75px;
+    margin : auto;
+    font-family : "KhandBold", Arial, sans-serif;
+    font-size: 1.3em;
+}
+
+footer li 
+{
+	border: 1px solid white;
+	padding: 10px;
+}
+
+footer li:hover
+{
+background-color: white;
+color: black;
+}
+
+header li:hover
+{
+	color: #A52222;
+}
+
+#icones
+{
+	display: flex;
+	flex-direction: row;
+
+}
+#icones a i:hover
+{
+color: #A52222;
+}
+
+i
+{
+	color: white;
+	display: flex;
+	font-size: 2em;
+	align-content: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#content
+{
+	width: 900px;
+	display: flex;
+	margin: auto;
+}
+
+
+#carré
+{
+	background-image: url(images/nathria.jpg);
+	background-size: 900px;
+	background-repeat: no-repeat;
+	margin-top: 200px;
+	margin-bottom: 100px;
+	border: 2px solid white;
+	height: 500px;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+}
+
+#content img
+{
+	width: 900px;
+	height: 500px;
+	margin: auto;
+}
+
+#carré p
+{
+	color: #F8F8F8;
+	font-family: "Khand";
+	justify-content: center;
+	font-size: 1.7em;
+}
+
+#logo
+{
+	background-image: url(images/logo.png);
+	background-size: 900px;
+	background-repeat: no-repeat;
+	background-position: -30px 0px;
+	height: 500px;
+	width: 100%;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+#logo p{
+	
+	bottom: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a: visited{
+	text-decoration: none;
+	color: white;
+}
